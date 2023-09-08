@@ -1,0 +1,39 @@
+
+
+
+footer {
+    position:relative;
+   left: 0;
+    bottom: 0;
+    width: 430px;
+    background-color:bisque;
+       }
+
+footer p{
+color:blue;
+font-family: sans-serif;
+font-size: 10px;
+text-align: center;
+ 
+}
+footer img{
+    max-width: 80%;
+    width: 30px;
+    height: 30px;
+    }
+@media screen and (min-width:48em){
+
+    
+        footer {
+            position:relative;
+            left: 0;
+            bottom: 0;
+            width:100%;
+        }
+
+            footer p{
+                font-size: 12px;
+                text-align: center;}
+                
+       
+}
